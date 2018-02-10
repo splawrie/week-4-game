@@ -1,0 +1,52 @@
+body {
+	background: url("../images/myBackground.jpg");
+}
+
+#gameTitle {
+	width: 275px;
+	height: 50px;
+	background-color: brown; 
+	color: white;
+} 
+
+#gameInst {
+	width: 400px;
+	height: 275px;
+	background-color: tan; 
+	color: green;
+}
+
+#computerGuess {
+	width: 200px;
+	height: 75px;
+	background-color: #33FF98; 
+	color: purple;
+}
+
+#wins {
+	width: 100px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+#losses {
+	width: 100px;
+	height: 50px;
+	background-color: red;
+	color: white;
+}
+
+#yourScore  {
+	width: 250px;
+	height: 25px;
+	background-color: #2BC1AE;
+	color: white;
+}
+  
+#totalScore {
+	width: 200px;
+	height: 75px;
+	background-color: #2BC1AE; 
+	color: white;
+}

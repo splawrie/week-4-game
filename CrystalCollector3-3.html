@@ -1,0 +1,129 @@
+
+<!--<img src="http://www.zingerbug.com/Backgrounds/background_images/light_green_random_spiral_swirls_background_1800x1600.jpg" alt="http://www.zingerbug.com/Backgrounds/background_images/light_green_random_spiral_swirls_background_1800x1600.jpg">
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crystal Collector</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+
+
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="row">
+     <!-- <div class="panel panel-default"> -->
+     <!--     <div class="panel-heading">
+          <h3 class="panel-title">Crystal Collector!</h3>
+              </div> -->
+      	<div class="col-md-6">
+       		<div class="panel-body text-left">
+          		<h1 id="gameTitle">Crystal Collector!</h1>
+        	</div>
+     	</div>
+     	<div class="col-md-6"></div>
+    </div>
+
+     
+    <div class="row">
+        <div class="col-md-6">
+          	<div class="panel-body text-left" id="gameInst">
+	            <p>You will be given a random number at the start of the game.</p>
+
+	            <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+	            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+
+	            <p>The value of each crystal is hidden from you until you click on it.</p>
+
+	            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+          	</div>
+        </div>
+    	<div class= "col-md-6"></div>
+   	</div>
+
+    <div class="row">
+        <div class="col-md-3">
+          	<div class="panel-body text-left">
+            	<h2 span id="computerGuess"></span>
+          	</div>
+        </div>
+
+       	<div class="col-md-2">
+            <div class="panel-body text-left">
+              	<p id="wins">Wins: <p>
+              	<p id="losses">Losses: </p>
+            </div>
+        </div>
+        <div class= "col-md-7"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2">
+          	<div class="panel-body text-left">
+            	<img id="crystal1" src="assets/images/crystal1.jpg" alt="Crystal1" class="img-thumbnail">
+          	</div>
+        </div>
+
+        <div class="col-sm-2">
+          	<div class="panel-body text-left">
+              <img id="crystal2" src="assets/images/crystal2.jpg" alt="Crystal2" class="img-thumbnail">
+          	</div>
+        </div>
+
+        <div class="col-sm-2">
+         	<div class="panel-body text-left">
+            	 <img id="crystal3" src="assets/images/crystal3.jpg" alt="Crystal3" class="img-thumbnail">
+          	</div>
+        </div>
+
+        	<div class="col-sm-2">
+          		<div class="panel-body text-left">
+            		  <img id="crystal4" src="assets/images/crystal4.jpg" alt="Crystal4" class="img-thumbnail">
+          		</div>
+       		</div>
+        	<div class="col-md-4"></div>
+   		</div>
+
+
+
+      	<div class="row">
+          	<div class="col-md-4">
+            	<div class="panel-body text-left">
+             		<h3 id="yourScore">Your Total Score Is: </h3>
+            	</div>
+          	</div>
+        <div class="col-md-4"></div>
+    </div>
+
+
+      	<div class="row">
+        	<div class="col-md-4">
+         		<div class="panel-body text-left">
+            		<h1 id="totalScore"></h1>
+         		</div>
+        	</div>
+        	<div class="col-md-8"></div>
+      	</div>
+
+  	</div>
+
+   <script type="text/javascript" src="assets/javascript/games.js"></script>
+
+</body>
+
+</html>
