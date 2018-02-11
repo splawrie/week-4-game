@@ -1,13 +1,14 @@
 //initialize variables
-  
+
 var crystal1 = 0;
+var crystal2 = 0;
 var crystal3 = 0;
 var crystal4 = 0;
 var computerRandomNumber = 0;
 var totalScore = 0;
 var wins = 0;
 var losses = 0;
-  
+
  // start the game
  function startGame() {
   totalScore=0;
@@ -46,12 +47,12 @@ $(".img-thumbnail").on("click", function() {
       totalScore = totalScore + crystal1;
       $("#totalScore").html(crystal1);
     }
-  
+
     if ($(this).attr("id") === "crystal2") {
       totalScore = totalScore + crystal2;
       $("#totalScore").html(crystal2);
     }
-           
+
     if ($(this).attr("id") === "crystal3") {
       totalScore = totalScore + crystal3;
       $("#totalScore").html(crystal3);
